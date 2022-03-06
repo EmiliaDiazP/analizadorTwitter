@@ -45,7 +45,7 @@ n = 350
     
 def app():
     st.title("Tu año en Twitter 🔥")
-    st.info('Estoy todavía en fase beta, trátame bonito y con cariño')
+    st.info('Emilia Diaz - SEE Análisis de Redes Sociales con Python - 2022')
     st.subheader("Veamos como fueron tus tweets durante el 2021")
     raw_text = st.text_area("Escribe tu nombre de usuario (sin la @)")
     
@@ -171,9 +171,7 @@ def app():
             st.write("Te han faltado amigos, porque no empiezas a seguir más personas y hablar más")
         
         
-        st.caption("Powered by Masapp")
-        st.image("https://pbs.twimg.com/profile_images/1299512515802656768/Pg9L4yt8_400x400.jpg")
-        link = '[Ir a la web](http://www.masappec.com)'
+        st.caption("Powered by Emilia Diaz con la tutoría de Roberto Esteves y la Sociedad Ecuatoriana de Estadísstica - 2022")
         st.markdown(link, unsafe_allow_html=True)
         
 if __name__ == "__main__":
