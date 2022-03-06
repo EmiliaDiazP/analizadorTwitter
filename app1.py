@@ -24,10 +24,10 @@ nltk.download('stopwords')
 stop = nltk.corpus.stopwords.words('spanish')
 plt.style.use('fivethirtyeight')
 
-consumer_key = 'UjYQZT9P9vdYq6OzEFPsqSLQB'
-consumer_secret = 'LWKnd023OSmb6kfTbDd5zPjo4P0LcQodvg1wRf7LynWCgOH8Nb'
-access_token = '384431766-SdZnMYaETCYPiI6NyogMtZSEZq95dAYqZyDNkWhU'
-access_token_secret = '5GD2CpP3Bt3ZvsCjiMV0LvkNnh5oBiJiEeJNW9lzdQ38o'
+consumer_key = 'F2tPsbsxovOE6JKJziemnyF7Y'
+consumer_secret = 'gi2JhGWHfLqRZz1WtUBpajXOP6wIUZJ6D8cyt2oVlnC6e7tP57'
+access_token = '901166200889192449-3zEGMNUZNXj9OTHuGlidSxmWhsQmZbF'
+access_token_secret = 'vOnetwlpodQDzkQhoiqEmH7WMo49dG8gOSXsTCodb30RO'
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 p.set_options(p.OPT.URL, p.OPT.RESERVED,p.OPT.NUMBER)
@@ -171,7 +171,7 @@ def app():
             st.write("Te han faltado amigos, porque no empiezas a seguir más personas y hablar más")
         
         
-        st.caption("Powered by Emilia Diaz con la tutoría de Roberto Esteves y la Sociedad Ecuatoriana de Estadísstica - 2022")
+        st.caption("Powered by Emilia Diaz con la tutoría de Roberto Esteves y la Sociedad Ecuatoriana de Estadística - 2022")
         
 if __name__ == "__main__":
 	app()
