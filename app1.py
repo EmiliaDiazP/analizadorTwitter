@@ -172,7 +172,6 @@ def app():
         
         
         st.caption("Powered by Emilia Diaz con la tutoría de Roberto Esteves y la Sociedad Ecuatoriana de Estadísstica - 2022")
-        st.markdown(link, unsafe_allow_html=True)
         
 if __name__ == "__main__":
 	app()
